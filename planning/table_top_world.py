@@ -278,5 +278,5 @@ for e in positions:
     rv = ik_solve([e[0], e[1], 0.65], first_time)
     time.sleep(1.0)
     vis.show()
-    first_time = not first_time
+    first_time = False
 vis.run()
